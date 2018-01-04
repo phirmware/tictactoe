@@ -1,0 +1,77 @@
+body{
+    background: black;
+}
+h1{
+    color: white;
+}
+.head{
+    height: 400px;
+    width: 70%;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+.box{
+    border: solid 0.5px whitesmoke;
+    width: 33.1%;
+    height: 32.8%;
+    float: left;
+    transition: 0.5s;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    margin-left: 4px;
+    width: 80px;
+    height: 50px;
+    font-weight: bold;
+}
+
+.btn1{
+    background: yellow;
+}
+
+.btn2{
+    background: red;
+}
+
+.first{
+    border-left: none;
+    border-top: none;
+    animation-delay: 1.2s;
+}
+.second{
+    border-top: none;
+    animation-delay: 1.1s;
+}
+.third{
+    border-top: none;
+    border-right: none;
+    animation-delay: 1.05s;
+}
+.fifth{
+    animation-delay: 1.1s;
+}
+.fourth{
+    border-left: none;
+    animation-delay: 1.2s;
+}
+.sixth{
+    border-right: none;
+    animation-delay: 1.05s
+}
+.seventh{
+    border-left: none;
+    border-bottom: none;
+    animation-delay: 1.2s;
+}
+.eight{
+    border-bottom: none;
+    animation-delay: 1.1s;
+}
+.ninth{
+    border-right: none;
+    border-bottom: none;
+    animation-delay: 1.05s;
+}
